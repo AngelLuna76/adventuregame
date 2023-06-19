@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>advgame</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <div class="block">
+  <h4>Es tu madre preguntando por como estas y como es el ambiente en el lugar, feliz miras por la ventana el paisaje y le respondes que muy tranquilo.
+  <p> Durante la charla con tu madre sigues viendo el paisaje, pero notas a un hombre observandote.
+  <p> Piensas que es un explorador pero... </h4>
+    
+    <h5><div class="buttons">
+    <p id="seg" class="btn_1">Cierras todo por seguridad</p>
+    <p id="noimp" class="btn_2">No tomas importancia </p>
+      <p id="finalxd" class="btn_3">Recuerdas la noticia, llamas a la policia y huyes </p>
+     </div> </h5>
+
+    <script>
+      document.getElementById("seg").addEventListener("click",e=>{
+      window.location.href = "seg.html"
+    })
+
+    document.getElementById("noimp").addEventListener("click",e=>{
+      window.location.href = "noimp.html"
+    })
+
+    document.getElementById("finalxd").addEventListener("click",e=>{
+      window.location.href = "finaljaja.html"
+    })
+    </script>
+</body>
+</html>

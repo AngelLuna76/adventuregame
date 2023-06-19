@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>advgame</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <div class="block">
+  <h4>No tomas importancia y sigues con la llamada un buen rato.
+  <p>Despues de un rato terminas y decides ir a dormir pero antes de eso vas y cierras las puertas, cierras una por una, al final notas la puerta trasera abierta y...</p></h4>
+    
+    <h5><div class="buttons">
+    <p id="opcion1" class="btn_1">Creer que fuiste tu quien la dejo abierta</p>
+      <p id="opcion2" class="btn_2">Investigar si hay un intruso</p>
+     </div></h5>
+
+    <script>
+      document.getElementById("opcion1").addEventListener("click",e=>{
+      window.location.href = "cocina.html"
+    })
+
+    document.getElementById("opcion2").addEventListener("click",e=>{
+      window.location.href = "buscas.html"
+    })
+    </script>
+</body>
+</html>

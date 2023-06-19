@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>advgame</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <div class="block">
+  <h4>Cierras la puerta con seguro y vas a la cocina por un vaso de agua, mientras te servias escuchas pasos atras de ti y...</h4>
+    
+    <h5><div class="buttons">
+    <p id="opcion1" class="btn_1">Reaccionar rapidamente y tomar un cuchillo </p>
+      <p id="opcion2" class="btn_2">Voltear</p>
+     </div></h5>
+
+    <script>
+      document.getElementById("opcion1").addEventListener("click",e=>{
+      window.location.href = "pelea.html"
+    })
+
+    document.getElementById("opcion2").addEventListener("click",e=>{
+      window.location.href = "muerte3.html"
+    })
+    </script>
+</body>
+</html>

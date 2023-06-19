@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>advgame</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <div class="block">
+  <h4>Al subir lentamente el asesino no se da cuenta de tu presencia y logras tomarlo por sorpresa.
+    <p>Forcejeas con el asesino y logras separarte de el, ahora tienes las manos libres y oportunidad de atacar...</h4>
+    
+    <h5><div class="buttons">
+    <p id="opcion1" class="btn_1">Acuchillar en el estomago </p>
+      <p id="opcion2" class="btn_2">Acuchillar en el cuello</p>
+     </div></h5>
+
+    <script>
+      document.getElementById("opcion1").addEventListener("click",e=>{
+      window.location.href = "acuchillado.html"
+    })
+
+    document.getElementById("opcion2").addEventListener("click",e=>{
+      window.location.href = "ganaste1.html"
+    })
+    </script>
+</body>
+</html>
